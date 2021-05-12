@@ -1,0 +1,42 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "codesci"
+			}
+		},
+		{
+			"path": "pages/about/about",
+			"style": {
+				"navigationBarTitleText": "codesci about"
+			}
+		}
+	],
+	// 全局样式
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "codesci",
+		"navigationBarBackgroundColor": "#0faeff",
+		"backgroundColor": "#fbf9fe"
+	},
+	"tabBar": {
+		"color":"#000000",
+		"selectedColor":"#0faeff",
+		"backgroundColor":"#ffffff",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/imags/iconfont/微信.svg",
+				"selectedIconPath":"static/imags/iconfont/微信.svg",
+				"text":"聊天"
+			},
+			{
+				"pagePath":"pages/about/about",
+				"iconPath":"static/imags/iconfont/通讯录.svg",
+				"selectedIconPath":"static/imags/iconfont/通讯录.svg",
+				"text":"通讯录"
+			}
+		]
+	}
+}
