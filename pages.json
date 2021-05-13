@@ -11,8 +11,29 @@
 			"style": {
 				"navigationBarTitleText": "codesci about"
 			}
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "codesci me"
+			}
+		},
+		{
+			"path": "pages/discover/discover",
+			"style": {
+				"navigationBarTitleText": "codesci discover"
+			}
 		}
-	],
+	    ,{
+            "path" : "pages/test/test",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	// 全局样式
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
@@ -27,15 +48,27 @@
 		"list":[
 			{
 				"pagePath":"pages/index/index",
-				"iconPath":"static/imags/iconfont/微信.svg",
-				"selectedIconPath":"static/imags/iconfont/微信.svg",
-				"text":"聊天"
+				"iconPath":"static/imags/iconfont/weixin.svg",
+				"selectedIconPath":"static/imags/iconfont/weixin.svg",
+				"text":"聊天？？"
 			},
 			{
 				"pagePath":"pages/about/about",
-				"iconPath":"static/imags/iconfont/通讯录.svg",
-				"selectedIconPath":"static/imags/iconfont/通讯录.svg",
+				"iconPath":"static/imags/iconfont/concat.svg",
+				"selectedIconPath":"static/imags/iconfont/concat.svg",
 				"text":"通讯录"
+			},
+			{
+				"pagePath":"pages/discover/discover",
+				"iconPath":"static/imags/iconfont/discover.svg",
+				"selectedIconPath":"static/imags/iconfont/discover.svg",
+				"text":"发现"
+			},
+			{
+				"pagePath":"pages/me/me",
+				"iconPath":"static/imags/iconfont/me.svg",
+				"selectedIconPath":"static/imags/iconfont/me.svg",
+				"text":"我"
 			}
 		]
 	}

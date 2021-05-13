@@ -4,6 +4,14 @@
 		<view class="text-area">
 			<text class="title">{{title}}</text>
 		</view>
+		
+		<navigator url="../test/test"  hover-class="navigator-hover">
+			<button type="default">跳转到新页面</button>
+		</navigator>
+		
+		<view>
+			<button type="default" @click="skip">h5支付</button>
+		</view>
 	</view>
 </template>
 
@@ -18,7 +26,12 @@
 
 		},
 		methods: {
-
+			skip:function(){
+				console.log("=======")
+				uni.navigateTo({
+					url:'../discover/discover'
+				})
+			}
 		}
 	}
 </script>
